@@ -1,0 +1,119 @@
+body {
+    background-image: url("retrosupply-jLwVAUtLOAQ-unsplash.jpg");
+    background-size: cover;
+    
+  }
+
+  p{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.84);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin: 300px 285px 0px 275px;
+    text-align: center;
+  }
+
+  footer p {
+    display: flex;
+    font-size: small;
+    font-weight: 1000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #000000;
+    justify-content: center;
+    margin: 0px 0px 2px 0px;
+  }
+  
+  nav {
+    display: flex;
+    background-color: rgb(160 153 89 / 84%);
+  }
+  
+  nav ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 100px 10px 100px;
+    color: #333;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li a:hover {
+    background-color: white;
+  }
+  
+  header h1{
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(11, 106, 35);
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    margin: 0px 500px 0px 160px;
+    /* justify-content: center; */
+    font-size: 50px;
+  }
+
+  section h1{
+    align-items: center;
+    font-size: medium;
+    color: rgb(226, 80, 54);
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 400px;
+  }
+
+  .bl{
+    font-size: 50px;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(38, 28, 0); 
+    display: flex;
+    justify-content: center;
+  }
+
+  #blogs{
+    background-color: #d1955570;
+    display: flex;
+    margin: 175px 150px 0px 150px;
+    justify-content: center;
+  }
+
+  .segment{
+    font: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .segment ul{
+    list-style: disc;
+  }
+
+  .segment ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(130, 72, 6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .segment ul li a:hover{
+    color: black;
+  }
+
+  .segment h3{
+    text-align: center;
+    font-size: 25px;
+  }
